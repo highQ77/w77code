@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William77's Code</title>
+    <script src="./browser@4"></script>
+</head>
+
+<body class="m-0 bg-stone-800 text-white text-[15px]">
+    <div class="m-5">
+        <div class="text-[26px] text-stone-300">William77's Code</div>
+        <div class="text-stone-500">這是威廉七七的密碼設計</div>
+    </div>
+    <div class="m-5">
+        <div>於 20250405 即興創作所設計的英文數字化加解密，</div>
+        <div>這是採用英文字與特殊符號的外觀組合進行設計，</div>
+        <div>最終以數字編碼呈現。</div>
+        <div>其中我設計了一個編碼對應表</div>
+
+        <table class="my-6 border">
+            <thead>
+                <tr class="border-b border-b-stone-500">
+                    <td class="p-1">視覺形狀</td>
+                    <td class="p-1">Numpad 按鍵</td>
+                    <td class="p-1">補充說明</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">c</td>
+                    <td class="px-1">1</td>
+                    <td class="px-1"></td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">i</td>
+                    <td class="px-1">2</td>
+                    <td class="px-1"></td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">!</td>
+                    <td class="px-1">3</td>
+                    <td class="px-1">文字左右相反或上下相反</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">l</td>
+                    <td class="px-1">4</td>
+                    <td class="px-1"></td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">-</td>
+                    <td class="px-1">5</td>
+                    <td class="px-1"></td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">j</td>
+                    <td class="px-1">6</td>
+                    <td class="px-1"></td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">n</td>
+                    <td class="px-1">7</td>
+                    <td class="px-1"></td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">v</td>
+                    <td class="px-1">8</td>
+                    <td class="px-1"></td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">.</td>
+                    <td class="px-1">9</td>
+                    <td class="px-1">視覺形變</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">,</td>
+                    <td class="px-1">0</td>
+                    <td class="px-1">字母結束</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">,,</td>
+                    <td class="px-1">00</td>
+                    <td class="px-1">換行</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1"></td>
+                    <td class="px-1">NumLock</td>
+                    <td class="px-1">NumLock 開啟時為普通數字，關閉時為威廉密碼模式</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>舉例來說 a = c + i</div>
+        <div>a 中有一個肚子 c，i 是肚子右方的身體</div>
+        <div>透過文字視覺造型可以很好的記憶</div>
+        <div>最後經編碼對應表轉譯如下</div>
+        <div>=> c + i = 12</div>
+        <div>所以 a 就是 12</div>
+        <div>我們可發現編碼對應表都是在 numpad 的按鍵裡</div>
+        <div>這樣，我們也不用帶著大鍵盤到處走</div>
+        <div>且 a = 120 這件事可以記在腦海(最後補零是表示結束輸入)，熟練後不用再回去理解編碼的過程</div>
+
+        <table class="my-6 border">
+            <thead>
+                <tr class="border-b border-b-stone-500">
+                    <td class="p-1">原始字母</td>
+                    <td class="p-1">視覺造型編碼</td>
+                    <td class="p-1">數值結果</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">a</td>
+                    <td class="px-1">c + i</td>
+                    <td class="px-1">12</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">b</td>
+                    <td class="px-1">l + !c</td>
+                    <td class="px-1">431</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">c</td>
+                    <td class="px-1">c</td>
+                    <td class="px-1">1</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">d</td>
+                    <td class="px-1">c + l</td>
+                    <td class="px-1">104</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">e</td>
+                    <td class="px-1">c + -</td>
+                    <td class="px-1">15</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">f</td>
+                    <td class="px-1">l + -</td>
+                    <td class="px-1">45</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">g</td>
+                    <td class="px-1">c + j</td>
+                    <td class="px-1">16</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">h</td>
+                    <td class="px-1">l + n</td>
+                    <td class="px-1">47</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">i</td>
+                    <td class="px-1">i</td>
+                    <td class="px-1">3</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">j</td>
+                    <td class="px-1">j</td>
+                    <td class="px-1">6</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">k</td>
+                    <td class="px-1">l + v</td>
+                    <td class="px-1">48</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">l</td>
+                    <td class="px-1">l</td>
+                    <td class="px-1">4</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">m</td>
+                    <td class="px-1">n + n</td>
+                    <td class="px-1">77</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">n</td>
+                    <td class="px-1">n</td>
+                    <td class="px-1">7</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">o</td>
+                    <td class="px-1">c + !c</td>
+                    <td class="px-1">131</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">p</td>
+                    <td class="px-1">.l + !c</td>
+                    <td class="px-1">9431</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">q</td>
+                    <td class="px-1">c + .l</td>
+                    <td class="px-1">194</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">r</td>
+                    <td class="px-1">.v</td>
+                    <td class="px-1">98</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">s</td>
+                    <td class="px-1">c + !c.</td>
+                    <td class="px-1">1319</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">t</td>
+                    <td class="px-1">.l + -</td>
+                    <td class="px-1">945</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">u</td>
+                    <td class="px-1">!n</td>
+                    <td class="px-1">37</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">v</td>
+                    <td class="px-1">v</td>
+                    <td class="px-1">8</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">w</td>
+                    <td class="px-1">v + v</td>
+                    <td class="px-1">88</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">x</td>
+                    <td class="px-1">v + !v</td>
+                    <td class="px-1">838</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">y</td>
+                    <td class="px-1">v + l</td>
+                    <td class="px-1">84</td>
+                </tr>
+                <tr class="border-b border-b-stone-500">
+                    <td class="px-1">z</td>
+                    <td class="px-1">- + l + -</td>
+                    <td class="px-1">545</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <div>所以 apple 的單字會是</div>
+        <div>12 9431 9431 4 15</div>
+        <div>補零後會變成</div>
+        <div>120943109431040150</div>
+        <div>補零的用意是為了分割每個文字</div>
+        <div>假設 m = 77, n = 7</div>
+        <div>若是 777 的數字我們沒辦法判斷是 mn 還是 nm</div>
+        <div>因此 77070 表示 mn / 70770 表示 nm</div>
+        <div>我們就不會搞錯</div>
+        <div>以上的方法可能有瑕疵或不完整的地方，請多多指教</div>
+    </div>
+</body>
+
+</html>
